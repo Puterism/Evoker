@@ -1,0 +1,69 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+    font-family: 'Titillium Web', '나눔바른고딕', 'Helvetica Neue', sans-serif;
+}
+
+/* Navbar */
+nav.navbar-restyle {
+    background: #fff;
+}
+
+nav a {
+    color: #222;
+    float: left;
+    display: inline-block;
+    padding: 14px;
+}
+
+.navbar-rear {
+    float: right;
+}
+
+.navbar-rear i {
+    padding: 16px 8px;
+    cursor: pointer;
+}
+
+/* Header */
+.heading {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Home */
+.recent-posts {
+    width: 70%;
+    padding: 0 10px;
+    float: left;
+}
+
+.post-preview {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post-meta span {
+    margin-right: 10px;
+}
+
+/* aside */
+.aside {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.aside-content {
+    margin-bottom: 30px;
+}
+
+.aside-title, .recent-posts-title {
+    text-transform: uppercase;
+}
+
+.follow-icons i {
+    margin-right: 10px;
+    cursor: pointer;
+}
