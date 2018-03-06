@@ -6,16 +6,19 @@ body {
 }
 
 /* Navbar */
-nav.navbar-restyle {
+.navbar-restyle {
     background-color: #333;
     color: #fff;
 }
 
 nav a {
     color: #fff;
-    float: left;
     display: inline-block;
     padding: 14px;
+}
+
+.navbar-front {
+    float: left;
 }
 
 .navbar-rear {
